@@ -1,8 +1,8 @@
 # Maintainer: burntcookie90
 
 pkgname=rename-perl-git
-pkgver=1.0
-pkgrel=1
+pkgver=1.1
+pkgrel=2
 pkgdesc="This program renames files according to modification rules specified on the command line. If no filenames are given on the command line, a list of filenames will be expected on standard input."
 license=('GPL')
 url="http://plasmasturm.org/code/rename/"
@@ -13,5 +13,5 @@ source=("$pkgname"::'git://github.com/ap/rename.git')
 md5sums=('SKIP')
 
 package() {
-	install -D -m07555 ${srcdir}/${pkgname}/rename ${pkgdir}/usr/bin/rename-perl
+	install -D -m 755 ${srcdir}/${pkgname}/rename ${pkgdir}/usr/bin/rename-perl
 }
