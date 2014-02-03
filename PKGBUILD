@@ -1,6 +1,6 @@
 # Maintainer: burntcookie90
 
-pkgname=rename-git
+pkgname=rename-perl-git
 pkgver=1.0
 pkgrel=1
 pkgdesc="This program renames files according to modification rules specified on the command line. If no filenames are given on the command line, a list of filenames will be expected on standard input."
